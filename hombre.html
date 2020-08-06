@@ -4,13 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JOGGER</title>
 
     <link rel="stylesheet" href="style/bootstrap.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="font.css">
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v8.0"
+        nonce="zwYJBzha"></script>
 
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-red fixed-top">
@@ -71,34 +75,57 @@
         </div>
     </nav>
 
+
+    <div id="social">
+        <ul id="ul">
+            <li><a id="a" href="http://www.facebook.com" target="_blank" class="icon-facebook"></a></li>
+        </ul>
+    </div>
+
     <!-- Page Content -->
     <div class="container">
 
         <!-- Portfolio Item Heading -->
-        <h1 class="my-4">Ropa de Hombre
-        </h1>
+        <h1 class="my-4">
+        </h1><br>
 
         <!-- Portfolio Item Row -->
         <div class="row">
 
             <div class="col-md-8">
-                <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+                <img class="img-fluid" src="assent/joggerhombre.jpeg" alt="">
             </div>
 
             <div class="col-md-4">
+                <br>
+                <h2>JOOGER</h2>
                 <h3 class="my-3">Descripcion del Producto</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
                     pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus.
                     Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-                <h3 class="my-3">Contactanos</h3>
                 <ul>
-                    <li>Lorem Ipsum</li>
-                    <li>Dolor Sit Amet</li>
-                    <li>Consectetur</li>
-                    <li>Adipiscing Elit</li>
+                    <b><label style="font-size: 28px;">Precio:</label></b>
+                    <b><label style="float: right; font-size: 28px;">S/. 65</label></b>
                 </ul>
+                <h3 class="my-3">Tallas Disponibles</h3>
+                <ul>
+                    <button type="button" class="btn btn-info">S</button>
+                    <button type="button" class="btn btn-info">M</button>
+                    <button type="button" class="btn btn-info">L</button>
+                </ul>
+                <h3 class="my-3">Colores Disponibles</h3>
+                <ul>
+                    <label style="width: 40px; height: 40px; background-color: blue; border-radius: 100%;"></label>
+                    <label style="width: 40px; height: 40px; background-color: red; border-radius: 100%;"></label>
+                    <label style="width: 40px; height: 40px; background-color: black; border-radius: 100%;"></label>
+                </ul>
+                <h3 class="my-3">Haz tu pedido </h3>
+                <a id="a" href="https://m.me/victor.ve21" target="_blank" class="icon-messenger btn btn-primary"
+                    style="background-color: blue;">
+                    Messenger</a>
+                <a id="a" href="https://api.whatsapp.com/send?phone=51938397743" target="_blank"
+                    class="icon-whatsapp btn btn-success" style="background-color: green;"> WhatsApp</a>
             </div>
-
         </div>
         <!-- /.row -->
 
@@ -111,7 +138,7 @@
                 <a href="#">
                     <img class="img-fluid" src="http://placehold.it/500x300" alt="">
                 </a>
-                <a href="" style="text-align: center;">Nombre del Producto</a>
+                <a href="" style="float: left;">Nombre del Producto</a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
@@ -134,9 +161,13 @@
 
         </div>
         <!-- /.row -->
+        <div class="fb-comments" data-href="https://victorvera21.github.io/ventas-exclusivas/hombre.html"
+            data-numposts="5" data-width=""></div>
 
     </div>
     <!-- /.container -->
+
+
 
     <!-- Footer -->
     <footer class="py-3 bg-dark">
