@@ -35,7 +35,7 @@ body {
   #social {
     position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
     left: 0; /* Establecemos la barra en la izquierda */
-    top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+    top: 400px; /* Bajamos la barra 200px de arriba a abajo */
     z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
   }
   
@@ -55,10 +55,10 @@ body {
     }
   
     #social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
-    #social ul li .icon-facebook2 {background: #0024f0;}
+    #social ul li .icon-messenger {background: rgb(228, 225, 225);}
     #social ul li .icon-whatsapp {background: #32d932;}
+
   
     #a:hover {
-      background: rgb(88, 179, 77); /* Cambiamos el fondo cuando el usuario pase el mouse */
       padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
     }
